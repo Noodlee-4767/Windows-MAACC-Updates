@@ -1,0 +1,9 @@
+{
+  "format": 1,
+  "product": "Mindspark Bot",
+  "version": "1.1.40",
+  "package_url": "MAACC_Bot_Windows_Update_v1.1.40_Uninstall_StopClosesTabs_20260928.msupdate",
+  "sha256": "1802a60500174de8f47f95a6000978548fd2a6e2506276d93fda871a041df832",
+  "size": 593308,
+  "notes": "Windows v1.1.40: adds in-app uninstall and makes Full Auto Stop close all bot-opened tabs."
+}
