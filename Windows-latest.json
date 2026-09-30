@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.42",
-  "package_url": "MAACC_Bot_Windows_Update_v1.1.42_TabLimit70_NoVoiceIndicator_20260930.msupdate",
-  "sha256": "48a7814f0c1e5380d6a9470ed6cfec7b9df57eeb7ce7df1e0cd3b64b03396ad9",
-  "size": 592761,
-  "notes": "Windows v1.1.42: raised the Full Auto maximum tab limit from 50 to 70 and removed the Voice status indicator. The slider and queue support 20–70 tabs in five-tab increments; the default remains 20. Event audio remains enabled. Includes the existing v1.1.41 queue and hard-limit fixes."
+  "version": "1.1.43",
+  "package_url": "MAACC_Bot_Windows_Update_v1.1.43_BatchTimer_RecoveryProgressFix_20260930.msupdate",
+  "sha256": "ab16dcc1bb0b0f84577bcebea49bd25193d5c776a416d41ec14b87c690f76386",
+  "size": 596501,
+  "notes": "Windows v1.1.43 combined update: the 48-minute Rapid Answer timer now starts exactly when the Start Hindi/Math Aagey/Shuru phase begins. Step 0, Student Login, Friend Login and earlier Start phases do not consume it. At expiry the active work is cancelled, all bot tabs are closed and that queue session is marked successful. Confirmed Internet Down pauses the timer; recovery keeps the saved elapsed position frozen until recovered tabs reach Aagey/Shuru again. Each Excel queue bar is divided into equal repeat compartments and shows per-ID partial progress inside the active round, such as 55% of round 1 while the label remains 0/6 done. Retains the 70-tab limit, removed Voice indicator and event audio from v1.1.42."
 }
