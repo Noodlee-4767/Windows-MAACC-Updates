@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.40",
-  "package_url": "MAACC_Bot_Windows_Update_v1.1.40_Uninstall_StopClosesTabs_20260928.msupdate",
-  "sha256": "1802a60500174de8f47f95a6000978548fd2a6e2506276d93fda871a041df832",
-  "size": 593308,
-  "notes": "Windows v1.1.40: adds in-app uninstall and makes Full Auto Stop close all bot-opened tabs."
+  "version": "1.1.41",
+  "package_url": "MAACC_Bot_Windows_Update_v1.1.41_QueueWrap_HardLimitFix_20260930.msupdate",
+  "sha256": "72f87654c95abb477224cd374f0cd1689ff9347e160eeecc6f0eda7f2def5e29",
+  "size": 1781619,
+  "notes": "Windows v1.1.41: fixes the Excel queue so non-final rounds wrap from the final workbook back to workbook 1, while the final repeat begins cleanly and leaves the last workbook's remaining accounts as their own partial batch. Hard-limit shutdown now closes tabs concurrently with timeouts and a retry, then always clears session state so the timer cannot restart on the same batch."
 }
