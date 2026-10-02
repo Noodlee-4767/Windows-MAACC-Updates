@@ -1,9 +1,7 @@
 {
-  "format": 1,
-  "product": "Mindspark Bot",
-  "version": "1.1.44",
-  "package_url": "MAACC_Bot_Windows_Update_v1.1.44_SeamlessResume_TechnicalLogs_20260930.msupdate",
-  "sha256": "b6f632acb00b11686b32913b2a7d6cfb47e8590ee8a1f328f59bb64846815e40",
-  "size": 607015,
-  "notes": "Windows v1.1.44 combined update: update checks still run every 10 minutes, but a newer package is now downloaded and SHA-256/size/payload verified in the background without changing an active session. Installation is deferred to the safe boundary after the current session is credited and all bot-owned tabs are closed. The bot atomically checkpoints Excel paths and fingerprints, per-account repeat counts, class selection, Hindi/Math schedule, tab limit and pairing state without storing passwords; a detached Windows helper backs up and replaces the bot, rolls back on failure, restarts it, rebuilds the queue and continues at the next unfinished session. Includes strict maacc.diagnostic.v1 JSONL with stable run/batch/tab/file/account mappings and explicit updater, timer, network, recovery, abort, completion and progress-commit events, with authentication image tokens redacted and legacy text normalized into JSON. Retains the v1.1.43 Aagey/Shuru timer trigger, Internet recovery timing, equal repeat progress compartments, 70-tab limit, removed Voice indicator and removed event audio."
+  "version": "1.1.45",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.45_URLRecovery_RuntimeFixes_20261002.msupdate",
+  "sha256": "8557ff8411b4fca1cadf45f4fcd5c54811f46ecbbfc476a24829c83adb0f7ec9",
+  "size": 607115,
+  "notes": "Windows v1.1.45: immediately navigate each new tab to the Mindspark login URL before any pause/security gate; share bounded navigation retry and verified-login handling across Step 0, missing-preload login, Status-error recovery and inactivity relog; retain the two-second batch settle and close failed replacement tabs. Fix missing math import in fraction working and pass subject explicitly in post-Chaliye question verification. Credit only accounts with successful subject login and, for pairs, verified Friend Login; failed/removed accounts retain their counts. Cancel active work before hard-limit tab closure and always cancel orphaned watchdogs. Preserve the 70-tab limit, Aagey/Shuru-triggered 48-active-minute timer, Internet recovery, technical logs and update-at-session-boundary resume. Add source syntax checks and startup acknowledgement for subsequent seamless updates, with rollback and queue checkpoint retention on startup failure."
 }
