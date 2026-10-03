@@ -1,7 +1,7 @@
 {
-  "version": "1.1.45",
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.45_URLRecovery_RuntimeFixes_20261002.msupdate",
-  "sha256": "8557ff8411b4fca1cadf45f4fcd5c54811f46ecbbfc476a24829c83adb0f7ec9",
-  "size": 607115,
-  "notes": "Windows v1.1.45: immediately navigate each new tab to the Mindspark login URL before any pause/security gate; share bounded navigation retry and verified-login handling across Step 0, missing-preload login, Status-error recovery and inactivity relog; retain the two-second batch settle and close failed replacement tabs. Fix missing math import in fraction working and pass subject explicitly in post-Chaliye question verification. Credit only accounts with successful subject login and, for pairs, verified Friend Login; failed/removed accounts retain their counts. Cancel active work before hard-limit tab closure and always cancel orphaned watchdogs. Preserve the 70-tab limit, Aagey/Shuru-triggered 48-active-minute timer, Internet recovery, technical logs and update-at-session-boundary resume. Add source syntax checks and startup acknowledgement for subsequent seamless updates, with rollback and queue checkpoint retention on startup failure."
+  "version": "1.1.46",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.46_PairingPreserve_FriendEvidence_20261002.msupdate",
+  "sha256": "6fc4ab4612308bc4d4ce7069aa33dc5bd3b7d8d1535faec745ab2372f232d257",
+  "size": 607739,
+  "notes": "Windows v1.1.46 fixes the v1.1.45 pairing-verification regression: missing visible name elements never close or untrack a paired tab. Primary-account credit is independent of Friend Login confirmation. Record password submission and the website UI transition before bot-driven popup cleanup; modal cleanup alone cannot confirm a friend. Retry only non-submitted or visibly unfinished Friend Logins once on the same tab; submitted uncertain tabs remain untouched. Apply the same preservation and per-account credit rules to inactivity relog. Retains all v1.1.45 URL navigation, fraction, Chaliye, watchdog and seamless-update fixes, 70-tab limit, technical logs, and the Aagey/Shuru-triggered timer."
 }
