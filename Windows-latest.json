@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.42",
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.42_MultiFileQueueFix_20261003.msupdate",
-  "sha256": "b9d7755953ad1c948e8d1e6ebb7fe8b02d6f5e6912df485bf5046b0c812c02e8",
-  "size": 593197,
-  "notes": "Fixed Full Auto opening accounts from only one Excel file when Repeat is 1 or on the final repeat. Every repeat now fills each batch across queued Excel files up to the selected tab limit. The final batch contains only remaining accounts; pairing, progress, subject order and repeat wrap behavior are preserved. Session logs now show the number of Excel files included."
+  "version": "1.1.43",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.43_TwoPassStart_MuteButton_20261005_2221.msupdate",
+  "sha256": "8e3d41bd6f73e3d87823f5342874886f3153b892bfa1d733b67ca080fd9540cb",
+  "size": 587893,
+  "notes": "Windows v1.1.43 packages the user-tested bot: every browser action focuses its tab; Student 1 and Friend login fixes with 1.5-second Friend password submission pacing; two focused Aagey/Shuru button passes with immediate skips for absent or disabled buttons; removes the final question-readiness stop; adds Mute/Unmute for active and queued bot sounds; retains 10-tab batches, batch pauses, 70-tab limit, segmented queue progress, pairing test toggle, 3-minute internet rechecks, technical logs, account-locked handling and bounded session-expired recovery."
 }
