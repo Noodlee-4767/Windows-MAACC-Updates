@@ -1,9 +1,8 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.44",
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.44_AdminPanel_20261005.msupdate",
-  "sha256": "b4899ffbc183889d015f2d54ea651d07387c2ad27be71b6c8bb536ee88b93e5d",
-  "size": 590124,
-  "notes": "Connect each device to the private Admin Panel with its one-time setup code. Capture unknown Math and Hindi question evidence once per tab, send in the background, and retry queued reports. Existing answer and tab flow remains active."
+  "version": "1.1.46",
+  "package_url": "https://github.com/Noodlee-4767/Windows-MAACC-Updates/releases/download/v1.1.46/MAACC_Bot_Windows_Update_v1.1.46_RequiredSetup_DarkGUI_20261006.msupdate",
+  "sha256": "ce0d03a40c91d5b45dd7efef0c625f369206af66dd85b6adf7ded711e7bf71ae",
+  "notes": "Required one-time code verification before bot opens; connection retained across updates and progress resets; lightweight dark GUI with rounded buttons, brief hover animations, top mute icon and Settings popup; Ubuntu mute repaired."
 }
