@@ -1,8 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.49",
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.49_EmbeddedMenus_18Themes_20261006.msupdate",
-  "sha256": "5f4b0473cde3df22b7baed36ac0744dd73be28f1b6b62e4f8109f1524334a7d8",
-  "notes": "18 saved color-circle themes in a 3x6 picker; original gold palette retained, saturated green buttons and separate true red. Embedded blurred-focus menus, clear gear, prominent Add files, bright red remove/uninstall, stronger repeat separators and compact numeric controls. Preserved per-OS automation/tab limits; explicit failed-phase diagnostics and graceful setup-paused status."
+  "version": "1.1.51",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.51_WorkflowParity_SettingsResize_20261006.msupdate",
+  "sha256": "dd4dbd0016bfcce865aa6bff80911ce7b3841e1f79e92b4ae6188066d2c15c0f",
+  "size": 599797,
+  "notes": "Windows v1.1.51: locks the automation workflow to the proven v1.1.42 testing behavior while retaining the intentional v1.1.50 additions: required activation/Admin Panel reporting, automatic Pairing schedule, unknown-question reporting, diagnostics, live themes, and the Security Check subject fix. Embedded Settings/theme/report dialogs now preserve the exact manually resized main-window geometry instead of expanding the bot when opened."
 }
