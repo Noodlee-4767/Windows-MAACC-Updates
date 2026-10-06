@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.52",
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.52_GUIStability_LiveThemeFix_20261006.msupdate",
-  "sha256": "21d32dc2657e70b6bb710771b56779d925d1181ddfa757aeaab7e5094fce6e84",
-  "size": 600551,
-  "notes": "Windows v1.1.52: GUI-only stability fix built directly on v1.1.51. Theme selection now updates in place without rebuilding the popup/backdrop, keeping the selection ring and blur stable while the background previews the new theme live. Embedded Settings/theme/report screens preserve the exact manually resized main-window geometry. Existing automation workflow, speeds, timers, reporting, activation, pairing, queue logic, and Windows 20-70 tab limit are unchanged."
+  "version": "1.1.53",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.53_FixedSoftBlur_ThemePreview_20261006.msupdate",
+  "sha256": "81cc2ee0bce76d474c9b9c17a321fe2b449e305529ccbb830542f1241235aef2",
+  "size": 601416,
+  "notes": "Windows v1.1.53: GUI-only theme-preview fix built directly on v1.1.52. The modal backdrop now keeps one fixed soft-blur snapshot for the whole popup session; selecting a theme recolors that cached blur once to match the selected palette while the main bot changes theme, so there is no blur re-capture/re-blur or popup rebuild. Existing workflow, speeds, timers, reporting, activation, pairing, queue logic, and Windows 20-70 tab limit are unchanged."
 }
