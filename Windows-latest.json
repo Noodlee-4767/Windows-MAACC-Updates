@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.51",
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.51_WorkflowParity_SettingsResize_20261006.msupdate",
-  "sha256": "dd4dbd0016bfcce865aa6bff80911ce7b3841e1f79e92b4ae6188066d2c15c0f",
-  "size": 599797,
-  "notes": "Windows v1.1.51: locks the automation workflow to the proven v1.1.42 testing behavior while retaining the intentional v1.1.50 additions: required activation/Admin Panel reporting, automatic Pairing schedule, unknown-question reporting, diagnostics, live themes, and the Security Check subject fix. Embedded Settings/theme/report dialogs now preserve the exact manually resized main-window geometry instead of expanding the bot when opened."
+  "version": "1.1.52",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.52_GUIStability_LiveThemeFix_20261006.msupdate",
+  "sha256": "21d32dc2657e70b6bb710771b56779d925d1181ddfa757aeaab7e5094fce6e84",
+  "size": 600551,
+  "notes": "Windows v1.1.52: GUI-only stability fix built directly on v1.1.51. Theme selection now updates in place without rebuilding the popup/backdrop, keeping the selection ring and blur stable while the background previews the new theme live. Embedded Settings/theme/report screens preserve the exact manually resized main-window geometry. Existing automation workflow, speeds, timers, reporting, activation, pairing, queue logic, and Windows 20-70 tab limit are unchanged."
 }
