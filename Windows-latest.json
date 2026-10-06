@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.43",
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.43_NoPairingTest_20261005_2239.msupdate",
-  "sha256": "f8af57f2966da93b4f95e7da643585f1b10ffc7fb2dfd300480ed14a83b3fabc",
-  "size": 587917,
-  "notes": "Windows v1.1.43 packages the user-tested bot: every browser action focuses its tab; Student 1 and Friend login fixes with 1.5-second Friend password submission pacing; two focused Aagey/Shuru button passes with immediate skips for absent or disabled buttons; removes the final question-readiness stop; adds Mute/Unmute for active and queued bot sounds; retains 10-tab batches, batch pauses, 70-tab limit, segmented queue progress, automatic pairing schedule, 3-minute internet rechecks, technical logs, account-locked handling and bounded session-expired recovery. Removes the temporary pairing test buttons and clock override."
+  "version": "1.1.44",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.44_AdminPanel_20261005.msupdate",
+  "sha256": "b4899ffbc183889d015f2d54ea651d07387c2ad27be71b6c8bb536ee88b93e5d",
+  "size": 590124,
+  "notes": "Connect each device to the private Admin Panel with its one-time setup code. Capture unknown Math and Hindi question evidence once per tab, send in the background, and retry queued reports. Existing answer and tab flow remains active."
 }
