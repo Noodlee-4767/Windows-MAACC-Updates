@@ -1,8 +1,8 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.47",
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.47_Themes_DarkWorkspace_20261006.msupdate",
-  "sha256": "7bb9290aa45b59dab91219460af8935dac31ade8b3cc77d9b1d8400842838f94",
-  "notes": "Admin-panel-inspired dark GUI with six saved color-circle themes, Settings theme selector, rounded session/queue cards, top mute icon and Start button. More finite hover/fade effects on Windows/Ubuntu; reduced effects on ChromeOS. Hidden scrollbar, complete mascot, preserved automation and saved device connection."
+  "version": "1.1.49",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.49_EmbeddedMenus_18Themes_20261006.msupdate",
+  "sha256": "5f4b0473cde3df22b7baed36ac0744dd73be28f1b6b62e4f8109f1524334a7d8",
+  "notes": "18 saved color-circle themes in a 3x6 picker; original gold palette retained, saturated green buttons and separate true red. Embedded blurred-focus menus, clear gear, prominent Add files, bright red remove/uninstall, stronger repeat separators and compact numeric controls. Preserved per-OS automation/tab limits; explicit failed-phase diagnostics and graceful setup-paused status."
 }
