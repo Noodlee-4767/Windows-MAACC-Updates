@@ -1,9 +1,10 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.54",
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.54_SmoothThemeTransition_20261006.msupdate",
-  "sha256": "a955bfef4f31c6d32bfb991619025d87a68c9293f731c4bc1c715bab5df551f0",
-  "size": 601637,
-  "notes": "Windows v1.1.54: GUI-only refinement built directly on v1.1.53. Theme changes now use a 10-frame eased transition: the visible bot, open theme popup, and the one fixed soft-blur backdrop move through the same intermediate palette together. The backdrop is still never re-captured or re-blurred, so popup focus/blur stability from v1.1.53 is preserved. Existing automation workflow, speeds, timers, reporting, activation, pairing, queue logic, and Windows 20-70 tab limit are unchanged."
+  "version": "1.1.55",
+  "remote_update_protocol": 1,
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.55_RemoteUpdates_InternetRecovery_20261006.msupdate",
+  "sha256": "9911a3c1506974f89b7b808aca6829ed9510b09c3680d3a95e881f504ce18b88",
+  "size": 610587,
+  "notes": "Remote update bootstrap: Admin Panel checks, verified OS-specific updates and pinned rollbacks, persistent restart recovery, session-boundary installation with queue progress preserved. Fix blank login tabs after internet recovery and retain the complete batch during setup outages. Existing GUI, activation, reporting and OS tab limits retained."
 }
