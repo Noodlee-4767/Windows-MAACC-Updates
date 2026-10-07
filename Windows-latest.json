@@ -1,10 +1,10 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.55",
+  "version": "1.1.57",
   "remote_update_protocol": 1,
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.55_RemoteUpdates_InternetRecovery_20261006.msupdate",
-  "sha256": "9911a3c1506974f89b7b808aca6829ed9510b09c3680d3a95e881f504ce18b88",
-  "size": 610587,
-  "notes": "Remote update bootstrap: Admin Panel checks, verified OS-specific updates and pinned rollbacks, persistent restart recovery, session-boundary installation with queue progress preserved. Fix blank login tabs after internet recovery and retain the complete batch during setup outages. Existing GUI, activation, reporting and OS tab limits retained."
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.57_FriendPopupTwoPass_NeverStop_20261007.msupdate",
+  "sha256": "267752b892e4df040458e9da49632effe0500832cb9b62239b355af043ca0b49",
+  "size": 613003,
+  "notes": "Friend Login popup two-pass recovery + never-stop tab fault tolerance: after Friend Login the bot performs two zero-wait scans for the exact #secondary_user_popup .addFriendContainer #closePopup cross; tabs without it are skipped immediately, matching tabs are focused and clicked, and the second pass catches leftovers. Student/Friend Login mismatches and escaped phase/orchestration errors are tab-local/recoverable and no longer stop Full Auto or discard healthy tabs; queue progress is not advanced on retries. Existing OS tab limits, GUI, Admin/Discord reporting, Internet Down recovery and normal session hard-limit behavior are retained."
 }
