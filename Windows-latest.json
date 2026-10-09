@@ -1,10 +1,10 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.57",
+  "version": "1.1.59",
   "remote_update_protocol": 1,
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.57_FriendPopupTwoPass_NeverStop_20261007.msupdate",
-  "sha256": "267752b892e4df040458e9da49632effe0500832cb9b62239b355af043ca0b49",
-  "size": 613003,
-  "notes": "Friend Login popup two-pass recovery + never-stop tab fault tolerance: after Friend Login the bot performs two zero-wait scans for the exact #secondary_user_popup .addFriendContainer #closePopup cross; tabs without it are skipped immediately, matching tabs are focused and clicked, and the second pass catches leftovers. Student/Friend Login mismatches and escaped phase/orchestration errors are tab-local/recoverable and no longer stop Full Auto or discard healthy tabs; queue progress is not advanced on retries. Existing OS tab limits, GUI, Admin/Discord reporting, Internet Down recovery and normal session hard-limit behavior are retained."
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.59_MultiBrowser_Experimental_20261009.msupdate",
+  "sha256": "b1d54b317478d3d39b5fe97bfeb780b87a44a0c99d27c5f838b52d6e8bfab3fb",
+  "size": 618220,
+  "notes": "Experimental Multi-Browser Mode for Windows and Ubuntu: opt-in browser selection, up to six tabs per compatible browser and 36 total, sequential launch and local interaction check, preserved ten-tab workflow and existing Single Browser mode, browser-aware logs, conservative capacity reduction and no queue credit after a browser disconnect. Optional browser installation uses supported package managers only after explicit setup opt-in. ChromeOS remains unchanged. Browser focus and site workflows require validation on target hardware."
 }
