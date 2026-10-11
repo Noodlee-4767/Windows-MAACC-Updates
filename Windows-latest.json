@@ -1,11 +1,11 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.63",
+  "version": "1.2.1",
   "remote_update_protocol": 1,
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.63_BrowserSetupProgress_20261011.msupdate",
-  "sha256": "8f5b4856d0ba862bb12a126da4e198f78895a09ab9311fec0a7d38beeecc8cba",
-  "size": 624262,
-  "notes": "Browser setup window now shows an individual progress bar, stage and elapsed time for each Windows and Ubuntu browser. Real installer percentages are displayed when available. Ubuntu administrator authentication has a 45-second countdown. The setup Cancel button and window close control ask for confirmation and stop at a safe installation boundary; missing browsers retry next launch. Ubuntu v1.1.62 Vivaldi and APT-lock fixes are included. ChromeOS is unchanged.",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.2.1_InternetDownConfirmation_20261011.msupdate",
+  "sha256": "ea23beab65b36e02eae4e4dd17f0758a58a5c71d685974bd232120a40db40ca3",
+  "size": 625010,
+  "notes": "Internet Down now requires an offline screen on at least one live tab in three full-tab scans, with a 10-second wait between scans. A transient connectivity request timeout no longer invents an offline tab or closes the browser fleet. Unconfirmed navigation failures preserve the tabs and queue for existing recovery. Playwright probe errors no longer print session cookies in the technical log. ChromeOS is unchanged.",
   "os": "Windows"
 }
