@@ -1,11 +1,11 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.61",
+  "version": "1.1.63",
   "remote_update_protocol": 1,
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.61_BrowserSetup_EdgeBeta_20261011.msupdate",
-  "sha256": "2b872b5109611d10afc71b4b2e8eadc58e319ac0d01c724eb23ac42b536b84a4",
-  "size": 622173,
-  "notes": "Post-update browser setup checks and installs missing Windows/Ubuntu browser candidates sequentially before the main UI, with visible progress and resumable state. Replaces the Firefox sixth slot with Microsoft Edge Beta to avoid separate Firefox windows. Uses vendor/package-manager sources and verifies launch, page navigation and interaction. Single Browser and the 1–36 tab bar remain intact. Ubuntu Vivaldi installation requires Ubuntu 24.04 or newer; missing or incompatible browsers reduce capacity and are reported. ChromeOS is unchanged.",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.1.63_BrowserSetupProgress_20261011.msupdate",
+  "sha256": "8f5b4856d0ba862bb12a126da4e198f78895a09ab9311fec0a7d38beeecc8cba",
+  "size": 624262,
+  "notes": "Browser setup window now shows an individual progress bar, stage and elapsed time for each Windows and Ubuntu browser. Real installer percentages are displayed when available. Ubuntu administrator authentication has a 45-second countdown. The setup Cancel button and window close control ask for confirmation and stop at a safe installation boundary; missing browsers retry next launch. Ubuntu v1.1.62 Vivaldi and APT-lock fixes are included. ChromeOS is unchanged.",
   "os": "Windows"
 }
