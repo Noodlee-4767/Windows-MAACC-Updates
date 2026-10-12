@@ -1,11 +1,11 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "remote_update_protocol": 1,
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.2.4_ChromiumLaunchFix_20261012.msupdate",
-  "sha256": "ad020a6b020df4b200a4b135cef172d76874e3239c8cd7a0b25bb4948c2226d6",
-  "size": 629522,
-  "notes": "Windows Chromium profile mode: launch independent Playwright Chromium browser processes with isolated temporary automation contexts. Fix failure caused by expecting a browser handle from a persistent context. Keep six tabs per process and the 60-tab Windows maximum. Report the underlying launch error and show the browser setup popup correctly. Preserve v1.2.3 queue controls, browser candidates, and Single Browser Edge behavior.",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.2.5_GreekProfiles_DiagonalWindows_20261012.msupdate",
+  "sha256": "2b165b181494144b3388e86abfa30568b5eef5dc264af1789faaf5520a7ac3b0",
+  "size": 630847,
+  "notes": "Windows: assign Alpha, Beta, Gamma, Delta, Epsilon, Zeta, Eta, Theta, Iota, Kappa as browser instance names in logs and the lightweight browser overview. Arrange only bot-owned Multi-Browser and Chromium-profile windows in a compact, work-area-aware diagonal with a narrow visible right strip. Retain the v1.2.4 independent Chromium launch fix, the six-tab-per-instance cap, the 60-tab Windows maximum, Single Browser Edge behavior and the queue controls. Browser taskbar avatar letters remain managed by Chromium and are not altered.",
   "os": "Windows"
 }
