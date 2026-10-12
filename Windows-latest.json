@@ -1,11 +1,11 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "remote_update_protocol": 1,
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.2.3_ChromiumProfiles_QueueControls_20261012.msupdate",
-  "sha256": "0738aef933c4ab6db5febeb7df69c7c4b3f23a99ab024a49c758bbb9b7c26683",
-  "size": 629674,
-  "notes": "Windows: remove Vivaldi and preserve Playwright-managed Firefox; add Edge Dev, Edge Beta, Chrome Beta, Chrome Dev and Chrome Canary candidates, subject to compatibility checks, for up to ten browser slots and 60 tabs. Single Browser No retains Edge; Yes uses independent temporary Playwright Chromium profiles with at most six tabs each. The slider now reaches 60. Queue trackpad scrolling, additive Add File and a confirmed Clear Batch control above the queue preserve active session progress.",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.2.4_ChromiumLaunchFix_20261012.msupdate",
+  "sha256": "ad020a6b020df4b200a4b135cef172d76874e3239c8cd7a0b25bb4948c2226d6",
+  "size": 629522,
+  "notes": "Windows Chromium profile mode: launch independent Playwright Chromium browser processes with isolated temporary automation contexts. Fix failure caused by expecting a browser handle from a persistent context. Keep six tabs per process and the 60-tab Windows maximum. Report the underlying launch error and show the browser setup popup correctly. Preserve v1.2.3 queue controls, browser candidates, and Single Browser Edge behavior.",
   "os": "Windows"
 }
