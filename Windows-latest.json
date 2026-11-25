@@ -1,11 +1,11 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "remote_update_protocol": 1,
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.2.6_BatchedLogs_25MBArchives_20261016.msupdate",
-  "sha256": "efcd0d728b06be5972fea97afd1d871ec74df9a4a81f58a1d5a5b9e9bc215abc",
-  "size": 632001,
-  "notes": "Windows: batch technical logging off the GUI thread, keep a bounded recent log in the live window, and rotate each active log at 25 MiB into a ZIP archive. Report uploads use a bounded recent excerpt without rewriting growing logs. Browser modes, tab limits, queue behavior, login, and answering remain unchanged.",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.2.7_India15_ProxyGroups_20261125.msupdate",
+  "sha256": "95b81c2ae3b11427ad2100dfb8b0447d7fc2a4995079b0c7f6d5a9a61b92d03f",
+  "size": 639006,
+  "notes": "• 15 Indian proxies\n• Three-tab browser groups\n• Proxy retained during recovery\n• SOCKS4 protocol support\n• Improved browser cleanup",
   "os": "Windows"
 }
