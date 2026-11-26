@@ -1,11 +1,11 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.2.7",
+  "version": "1.2.9",
   "remote_update_protocol": 1,
-  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.2.7_India15_ProxyGroups_20261125.msupdate",
-  "sha256": "95b81c2ae3b11427ad2100dfb8b0447d7fc2a4995079b0c7f6d5a9a61b92d03f",
-  "size": 639006,
-  "notes": "• 15 Indian proxies\n• Three-tab browser groups\n• Proxy retained during recovery\n• SOCKS4 protocol support\n• Improved browser cleanup",
+  "package_url": "https://raw.githubusercontent.com/Noodlee-4767/Windows-MAACC-Updates/main/MAACC_Bot_Windows_Update_v1.2.9_CertificateBypass_20261126.msupdate",
+  "sha256": "11f024590af7e33bc4a7741e88c02b42d6306926d05872100ab909addca0f75d",
+  "size": 640687,
+  "notes": "• Automatic Mindspark certificate bypass\n• Separate proxy group windows\n• Proxy retained during recovery\n• Site specific bypass setting\n• All answering handlers unchanged",
   "os": "Windows"
 }
